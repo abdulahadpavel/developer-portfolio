@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin: 100px;
 }
 .half-width{
     width: 50%;
@@ -22,7 +23,7 @@ section{
 }
 .contact-with-us{
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 5px 15px;
     border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
     font-weight: 700;
@@ -33,3 +34,31 @@ section{
     background-image: url(images/top-banner.png);
     background-position: no-repeat;
 }
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
