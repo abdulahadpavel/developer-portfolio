@@ -5,13 +5,14 @@ body{
 .orange-color{
     color: rgba(255, 166, 0, 0.971);
 }
-section{
+.container-flex{
     display: flex;
     margin: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 3%;
+   
 }
 .half-width img{
     width: 50%;
@@ -40,22 +41,37 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+#experience{
+    padding: 10px;
+}
 
+.experience-half{
+    width: 40%;
+    padding-left: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    font-style: italic;
+    border-left: 10px solid orangered
 
+   
+}
 
+#experience-left{
+    width: 40%;
+    padding-left: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    font-style: italic;
+    border-left: 10px solid blue;
+   
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    text-align: center;
+}
 
 
 
